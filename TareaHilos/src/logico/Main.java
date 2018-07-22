@@ -3,7 +3,10 @@ package logico;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Termometro term = new Termometro(20);
+		Selector select = new Selector(16);
+		Climatizador clim = new Climatizador(select, term);
+		clim.start();
 
 	}
 
