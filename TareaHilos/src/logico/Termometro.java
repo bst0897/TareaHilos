@@ -1,6 +1,6 @@
 package logico;
 
-public class Termometro {
+public class Termometro extends Thread {
 	
 	private int tempActual;
 	
@@ -21,4 +21,5 @@ public class Termometro {
 	public int medirTemp() {
 		return this.tempActual;
 	}
+	
 }

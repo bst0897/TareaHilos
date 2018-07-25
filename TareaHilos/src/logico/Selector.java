@@ -1,6 +1,6 @@
 package logico;
 
-public class Selector {
+public class Selector extends Thread {
 	private int tempElegida;
 
 	public int getTempElegida() {
@@ -16,5 +16,4 @@ public class Selector {
 		this.tempElegida = tempElegida;
 	}
 		
-	
 }
